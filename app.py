@@ -65,7 +65,7 @@ def main():
 
     if choice == "Home":
         st.write("""
-Welcome to MedicareBot! I'm here to assist you with all your medication-related questions. Need information on your prescriptions? Just ask!
+Welcome to Medi-care Bot! I'm here to assist you with all your medication-related questions. Need information on your prescriptions? Just ask!
 
 I can help with:
 
