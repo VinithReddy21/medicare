@@ -65,15 +65,14 @@ def main():
 
     if choice == "Home":
         st.write("""
-Welcome to **MediBot**! I'm your friendly neighborhood chatbot with a brain full of medicine knowledge. Need some quick info about your meds? Just ask away! 
+Welcome to MedicareBot! I'm here to assist you with all your medication-related questions. Need information on your prescriptions? Just ask!
 
-I can help you with details like:
+I can help with:
 
-- **Usage** – What’s this medicine for?
-- **Side effects** – What could go wrong? (But don’t worry, I’ll keep it light!)
-- **Dosage** – How much should you take? (No need for math – I’ve got you covered!)
-
-Please provide the exact medication name. For more help, check the 'About' section.
+Usage – What’s this medication for?
+Side Effects – What potential side effects should you know about? (I'll keep it simple and clear!)
+Dosage – How much should you take? (No need to worry, I’ll handle the details!)
+Just provide the exact name of your medication, and I’ll guide you from there. For additional help, check the 'About' section.
 """)
 
         if not os.path.exists('chat_log.csv'):
